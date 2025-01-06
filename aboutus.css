@@ -102,6 +102,7 @@ h1
         width: 80%;
         margin-bottom: 20px;
         order: -1;
+        height: auto;
     }
     #photo p
     {
