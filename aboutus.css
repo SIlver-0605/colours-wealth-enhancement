@@ -1,0 +1,156 @@
+h1
+{
+    text-align: center;
+    font-size: 2.5em;
+}
+#photo
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+#photo img
+{
+    height: 500px;
+}
+#photo p
+{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 70px;
+    line-height: 2;
+    margin-left: 60px;
+}
+#awardsheading
+{
+    background-color: #c3f8e4 ;
+    text-align: center;
+    font-size: 2.5em;
+
+}
+#awardimages
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-right: 180px;
+    
+}
+#awards
+{
+    background-color: #6A0DAD
+    
+}
+#awardimages img
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#awards p
+{
+    margin-left: 150px;
+    line-height: 2;
+    font-size: 1.2em;
+    color: white;
+}
+#awardsmain
+{
+    border-radius: 10px;
+}
+
+#awards li
+{
+    margin-left: 150px;
+    line-height: 2;
+    font-size: 1.2em;
+    color: white;
+}
+.awardspara
+{
+    margin-right: 70px;
+    line-height: 2;
+    color: white;
+}
+#awards2
+{
+    height: 400px;
+    width: 200px;
+}
+#ending
+{
+    background-color: #6A0DAD;
+    height: 200px;
+}
+
+@media screen and (max-width: 768px)
+{
+    #photo
+    {   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto; /* Centers the entire container */
+        padding: 10px;
+
+
+    }
+    #photo img 
+    {
+        width: 80%;
+        margin-bottom: 20px;
+        order: -1;
+    }
+    #photo p
+    {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #awardimages
+    {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    #awards-text
+    {
+        width: 100%;
+        
+        text-align: center;
+        margin-right: 20%;
+    }
+    #awards li 
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #about-section {
+        text-align: center; /* Aligns text neatly on both sides */
+        margin: 0 auto; /* Centers the section horizontally */
+        max-width: 90%; /* Sets a limit for width to keep the content aligned */
+        padding: 10px; /* Adds space around the text */
+        line-height: 1.8; /* Improves readability */
+        font-size: 1rem; /* Adjusts font size for better proportions */
+    }
+    #awards p.awardspara:first-of-type {
+        text-align: left; /* Aligns the first paragraph to the left */
+        margin-left: 20px; /* Adds margin for alignment */
+        margin-right: 20px; /* Keeps consistent spacing on smaller screens */
+        line-height: 1.8; /* Improves readability */
+        font-size: 1.2rem; /* Adjusts font size for smaller screens */
+    }
+
+    #awards p.awardspara:last-of-type {
+        text-align: left; /* Aligns the second paragraph to the left */
+        margin-left: 20px; /* Adds margin for alignment */
+        margin-right: 20px; /* Keeps consistent spacing on smaller screens */
+        line-height: 1.8; /* Improves readability */
+        font-size: 1.2rem; /* Adjusts font size for smaller screens */
+    }
+    
+
+    
+}
